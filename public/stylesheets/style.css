@@ -1,0 +1,74 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+b #login{
+	text-align: right;
+}
+
+/*slideshow*/
+#slidshow .lp-content{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.owl-dots{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    opacity: 0.6;
+    transition: background .5s
+}
+
+.owl-dot{
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.owl-dot span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.owl-dot.active span{
+    background: #6f11a8;
+    transition: background .5s;
+}
+
+.owl-nav > div{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100%;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+.owl-nav > div:hover{
+    opacity: 0.9;
+}
+.owl-prev{
+    left: 20px;
+}
+
+.owl-next{
+    right: 20px;
+}
+
+.owl-nav>div>i{
+    font-size: 30px;
+    line-height: 40px;
+    color: blue;
+}
