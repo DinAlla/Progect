@@ -1,0 +1,18 @@
+extends layout
+
+block content  
+a(href='/login') 
+  button(type="button" id="login") LogIn 
+script(src='routes/slider.js')
+h1 Welcome
+.viewport
+  ul.slidewrapper(data-current='0')
+    li.slide
+      img(src='', alt='')
+    li.slide.second
+      img(src='', alt='')
+    li.slide.third
+      img(src='', alt='')
+
+
+  
